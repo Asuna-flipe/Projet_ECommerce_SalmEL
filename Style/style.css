@@ -1,0 +1,67 @@
+body{
+    background: #af0e6b !important;
+}
+
+
+#GFG {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #613155;
+}
+
+#GFG::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+    /* Specify the background image to be used */
+    background-image:  url('images/backfashion.png');
+    background-size: cover;
+
+    /* Specify the background image */
+    opacity: 0.2;
+}
+span{
+    font-size:15px;
+}
+a{
+  text-decoration:none; 
+  color: #af0e6b;
+  border-bottom:2px solid #af0e6b !important;
+}
+
+.box{
+    padding:60px 0px;
+}
+
+.box-part{
+    background:#FFF;
+    border-radius:0;
+    padding:60px 10px;
+    margin:30px 0px;
+}
+.text{
+    margin:20px 0px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.logout-btn :hover{
+    background-color: #af0e6b;
+    color:white;
+}
+
+
+
+.back{
+    background: url("images/backfashion.png") !important;
+    background-repeat: no-repeat;
+    height:800px;
+}

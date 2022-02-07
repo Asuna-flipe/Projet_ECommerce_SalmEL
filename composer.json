@@ -1,0 +1,12 @@
+{
+    "name": "salma/woocommerce-ph-papp",
+    "authors": [
+        {
+            "name": "salma elaakkouchi",
+            "email": "salma.elaakkouchi@gmail.com"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    }
+}
